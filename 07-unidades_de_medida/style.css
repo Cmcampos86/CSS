@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232323;
+    color: #fff;
+    padding: 10px; 
+}
+
+section {
+    background-color: #ddd;
+    height: 100px;
+}
+
+.box {
+    border: 1px solid #232323;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 75px;
+}
+
+.px {
+    height: 10px; /* Unidade fixa. Valor absoluto. Não se adapta bem a telas grandes/pequenas. Útil para: Bordas finas (1-2px) e Tamanhos de fontes específicos */
+}
+
+/* root element -> 16px * 3 = 48px.  */
+.rem {
+    height: 3rem; /* Baseado no tamanho da fonte do elemento raiz (root element). Geralmente 16px. Tamanhos se adaptam se o usuário alterar o tamanho padrão da fonte
+    Recomendado para uso geral no CSS */
+}
+
+.em {
+    font-size: 20px;
+    padding: 1em; /* Baseado no tamanho da fonte do próprio elemento. Útil para elementos como botões, caixas de texto, etc. Tamanho varia conforme fonte do elemento */
+}
+
+.prcnt-33 {
+    height: 33%; /* Baseado no tamanho (altura/largura) do elemento pai Ex: 33% da altura do pai, 50% da largura do pai */
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/* viewport height */
+.vh {
+    height: 30vh; /* Baseado na altura/largura da área de visualização (viewport) Ex: 30vh ocupa 30% da altura total da viewport Útil para elementos de tamanho adaptável */
+}
+
+/* viewport width */
+.vw {
+    width: 50vw;
+}

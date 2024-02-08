@@ -1,0 +1,46 @@
+/* seletor :nth-child() */
+/* com listas (ul por exemplo), se for mais de uma, ela vai tratar separado */
+
+/* Vai estilizar o segundo item de li */
+li:nth-child(2) {
+    color: #f00;
+}
+
+/* Vai estilizar o segundo item e multiplicando */
+/* Aceita operações matemáticas: (2n - 1) */
+/* Pode usar como parâmetro o odd = ímpar e even = par */
+li:nth-child(2n) {
+    color: #00f;
+}
+
+/* Seletores de estados */
+li:hover {
+    background-color: #777;
+}
+
+/* Muda a cor do foco do elemento */
+input:focus {
+    background-color: #f00;
+}
+
+/* pseduo-elementos -> ::before e ::after */
+
+/* Antes do texto ele vai incluir antes o "(antes) " */
+li::before {
+    content: "(antes) ";
+}
+
+li::after {
+    content: "(depois) ";
+}
+
+/* Vai aplicar o estilo no último elemento */
+li:last-child {
+    color: #f00;
+}
+
+/* Vai aplicar em todos exceto o primeiro */
+li:not(:first-child) {
+    color: #2bff00;
+}
+

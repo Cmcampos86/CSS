@@ -1,0 +1,5 @@
++ Css é em cascata. Se tiver mais de um valor pela mesma tag, vai pegar o último
++ Não usar nomes de cores porque cada navegador pode interpretar isso de uma forma diferente por conta dos tons de cor
++ Ferramenta: Tab Color - Color Picker (Extensão Edge)
++ https://fonts.google.com/
++ 
